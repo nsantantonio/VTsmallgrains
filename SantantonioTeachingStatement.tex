@@ -1,0 +1,217 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[backend=bibtex, style=authoryear]{biblatex}
+
+% \addbibresource{~/Dropbox/TAGreview/PhDreferences.bib}
+
+\textwidth=470pt
+\oddsidemargin=0pt
+\topmargin=0pt
+\headheight=0pt
+\textheight=650pt
+\headsep=0pt
+
+\title{Statement of Research}
+
+
+\author{Nicholas Santantonios}
+\date{\today}
+
+
+\newcommand{\gxe}{G$\times$E}
+\newcommand{\gxg}{G$\times$G}
+
+
+\begin{document}
+
+\section*{Introduction}
+
+Plant breeders have always been generalists, uniting a range of plant sciences with genetics to identify farmers' needs and produce products to meet those needs. However, the range of skills required in the field is rapidly increasing. Competitive plant breeders are now expected to be proficient in statistics, programming, bioinformatics and computational biology along with the traditional skills in physiology, pathology, agronomy and genetics. The traditional skills are typically acquired in a standard plant science undergraduate program, but most prospective plant breeders do not get heavy exposure to  mathematical, statistical and computational subjects during their undergraduate studies. 
+
+Currently, most plant breeding students do not acquire skills in programming or in depth statistics until graduate school, impeding their progress while they learn to grapple with these new languages. While we are beginning to see signs of a shift toward more computational skills in the graduate school applicant pool, Cornell must also produce these students to send out to other graduate programs if it is to continue to be a leader in the plant breeding community. As educators, we must actively update our curriculum to meet the needs of the students and the plant breeding community. This is especially true today, where plant breeding has seen a rapid and unprecedented paradigm shift in recent years away from tinkering with single genes and toward whole genome engineering.
+
+% While single- and oligo-gene mendelian triats are abundant, why should students be limited to this type of genetic variation?  
+
+I propose to teach two courses, an introductory undergraduate plant breeding course to take the place of PLBRG 2010, and a cross-listed introduction to quantitative genetics course that would prepare senior undergraduates and first year graduate students for further study of quantitative genetics. 
+
+% \section*{Plants, Genes, and Global Food Production (PLBRG2010)}
+\section*{PLBRG 2XXX - Genome to Table: Technological advances in plant breeding}
+
+The undergraduate course will continue much of the structure built by Professor Susan McCouch, while shifting the focus toward the second half of the semester to be more quantitative in nature. The course will be taught from a historical perspective, allowing the natural progression of plant breeding over the past century to be a teaching tool for how we arrived at the methods we use today. The course will introduce students to plant breeding as a discipline and cover the basics of domestication, genetic diversity, and mating systems before shifting to a quantitative perspective to introduce students to these topics such that they may seek further quantitative and computational instruction before they graduate. Topics covered in the course are listed below.
+
+\subsection*{Objective}
+
+Students will be able demonstrate critical thinking of plant breeding ideas, with the ability to synthesize when given new information or situations. Students will be able to express how breeding technology changes through time have impacted the discipline and the societal view thereof. 
+
+% The course will introduce students to the basics of plant breeding from a historical perspective and transition to the quantitative and computational aspects of the rapidly evolving field. 
+
+\begin{itemize}
+
+	\item A brief review of Mendelian genetics (Mendel, Morgan, etc.)
+	\begin{itemize}
+		\item 1 and 2 gene inheritance
+		\item chromosomes, linkage
+	\end{itemize} 
+
+	\item Domestication and genetic diversity (Nikolai Vavilov, Cary Fowler, etc.)
+	\begin{itemize}
+		\item Centers of origin 
+		\item Domestication traits
+		\item Gene banks: seeds vs clonal species
+	\end{itemize} 
+
+	\item Mating systems and ploidy (with pollination lab)
+	\begin{itemize}
+		\item Inbred crops
+		\item Outcrossing crops
+		\item Hybrids  
+	\end{itemize} 
+
+	\item Green Revolution (Norman Borlaug, etc.)
+	\begin{itemize}
+		\item Impact of inorganic nitrogen
+		\item Asia
+		\item Africa
+	\end{itemize} 
+
+	\item Biotechnology \& Intellectual Property
+	\begin{itemize}
+		\item Traditional GMOs (with a contrast to mutagenesis)
+		\item Gene editing - GMO or not?
+		\item PVP and Patents 
+	\end{itemize}
+
+	\item Locating genes (with linkage mapping lab)
+	\begin{itemize}
+		\item Linkage mapping 
+		\item GWAS (intro)
+	\end{itemize} 
+
+	\item Complex traits (Fisher, etc.)
+	\begin{itemize}
+		\item Additivity
+		\item Dominance
+	\end{itemize} 
+
+	\item Introduction to new(er) technologies
+	\begin{itemize}
+		\item Marker-assisted selection (MAS)
+		\item Genomic selection (GS)
+		\item High throughput phenotyping (HTP)
+	\end{itemize} 
+
+\end{itemize}
+
+Student performance will be evaluated by three exams, regularly assigned homework, a term project, and a single a ``Crop of the Day'' presentation. The term project will be a forward thinking, exploration into a . ``Crop of the Day'' presentations will be assigned during the first week, where each student will choose a crop on which to present information about the origin, biology and breeding methods/goals of the crop, to be given at the beginning of each class.
+
+
+\section*{PLBRG 4XXX - Introduction to Quantitative Genetics for Plant Breeding }
+
+Currently, there is a single graduate level course on Quantitative genetics offered by the Plant Breeding and Genetics Section, under the instruction of Assistant Professor, Kelly Robbins. That course would benefit greatly from a introductory course, such that more time can be dedicated to in depth treatment of quantitative genetics theory for students who would like to specialize in quantitative genetics. This introductory course would provide the background theory, coding and application of known methods, while reserving focus on mathematical proofs and Bayesian methods for the advanced QG course. I envision essentially all plant breeding graduate students to take this course to gain the basic skills, while the advanced class would be available for those who wish to pursue the discipline further. 
+ % who do not wish to pursue the discipline further, but need the basic tools. The introductory QG course will focus on coding and application of known methods
+
+\subsection*{Objective}
+
+Students will demonstrate mastery of regression and linear mixed models to solve GWAS and GS problems. Students will be able to build design matrices and fit linear mixed models to solve for random effects with known genetic covariances in a computational environment. Students will have developed the computational tools to solve many of the problems they may encounter in their graduate research, while also developing a foundation from which to build new ideas to tackle new problems. A list of covered topics is below:
+
+\begin{itemize}
+
+	\item Review of probability
+	\begin{itemize}
+		\item Random variables
+		\item Probability density functions (PDF) and probability mass functions (PMF)
+		\item Central limit theorem and the normal distribution
+	\end{itemize} 
+
+	\item Single gene model 
+	\begin{itemize}
+		\item Additive
+		\item Dominance 
+		\item Effect of inbreeding
+	\end{itemize} 
+
+	\item Genetic variances and covariance
+	\begin{itemize}
+		\item Additive and dominance covariance
+		\item Calculating expectations from a pedigree 
+		\item Calculating realized covariances from marker scores
+		\item Necessity of marker imputation
+	\end{itemize} 
+
+	\item Linear regression
+	\begin{itemize}
+		\item Parameters and likelihood
+		\item Numerical and categorical predictors 
+		\item Ordinary least squares
+		\item Connection to ANOVA/ANCOVA
+	\end{itemize} 
+
+	\item The linear mixed model
+	\begin{itemize}
+		\item Random versus fixed effects
+		\item Known and estimated covariances
+		\item Expectation Maximization (EM) algorithm for solving mixed model equations 
+	\end{itemize} 
+
+	\item Genome wide association
+	\begin{itemize}
+		\item Linkage Disequilibrium
+		\item Population structure
+		\item QQ plots
+	\end{itemize} 
+
+	\item Genomic Prediction
+	\begin{itemize}
+		\item Evaluation of model fit 
+		\item Genomic prediction of unobserved individuals
+		\item k-fold cross-validation 
+	\end{itemize} 
+
+\end{itemize}
+
+Performance will be based on three exams, regular homework assignments, a weekly computational lab and a term project which will be developed throughout the semester. All homework assignments will contain both theoretical and computational problems, that must be submitted as typed documents, in Markdown, Latex or similar format. The term project will consist of students finding a genotype-phenotype dataset, and working to develop a genotype to phenotype map and assess genomic predictability throughout the semester, using tools they will be learning and writing along the way.
+
+
+\section*{Undergraduate degree in computational plant science}
+
+In the future I seek to build an undergraduate degree program plant science oriented to quantitative genetics and computational biology. The undergraduate degree would have a heavy focus on linear algebra, programming, statistics, machine learning and operational research. 
+
+
+% Bachelors in unified breeding
+
+\begin{itemize}
+
+	\item Core requirements
+	\begin{itemize}	
+		\item Math (linear algebra, matrix calculus)
+		\item Statistics (prob and Stat theory)
+		\item Programming (Python / C++ / etc.)
+		\item Machine learning
+		\item Operational research (OR dept?)
+		\item Biology
+		\item Chemistry
+	\end{itemize} 
+
+	\item PLBR requirements
+	\begin{itemize}
+		\item Plant Genetics (PLBRG 2250, Mazourek)
+		\item Genetic Improvement of Crop Plants (PLBRG 4030, Gore/Reisch)
+		\item Introduction to quantitative genetics (PLBRG 40XX , Santantonio)
+		% \item New age of Plant and Animal breeding (GS etc...)
+	\end{itemize} 
+
+	\item Plant Science Electives (must pick two)
+	\begin{itemize}
+		\item Pathology 
+		\item Physiology
+	\end{itemize} 
+
+	\item Management
+	\begin{itemize}
+		\item Course about building a successful team
+	\end{itemize} 
+
+\end{itemize}
+
+\end{document}
