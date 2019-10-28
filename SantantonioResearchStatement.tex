@@ -1,4 +1,4 @@
-\documentclass[10pt]{article}
+\documentclass[11pt]{article}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage[backend=bibtex, style=authoryear]{biblatex}
@@ -9,7 +9,7 @@
 \oddsidemargin=0pt
 \topmargin=0pt
 \headheight=0pt
-\textheight=650pt
+\textheight=680pt
 \headsep=0pt
 
 \title{Statement of Research}
@@ -28,7 +28,7 @@
 \section*{\centering Statement of Research}
 \begin{center} Nicholas Santantonio \end{center}
 
-\subsection*{Introduction}
+% \subsection*{Introduction}
 
 % gxg cows
 % cover crop to sequester carbon, 
@@ -49,93 +49,69 @@
 
 % Forage research has been drastically under-funded compared to food crops, but renewed interest in sustainable farming has brought them back into the limelight. 
 
-Interest in sustainable agriculture has brought renewed attention to forage crops, which can increase soil nitrogen, sequester carbon, reduce weed populations and generally improve soil health while providing a valuable hay crop. Farms must produce more on less land and with less agronomic inputs, leaving genetics as the primary target for improvement. This need is emphasized in sustainable agriculture where fertilizer and pesticide inputs must be used sparingly and carefully to reduce environmental impact. Marginal lands are a marked exception and a good target for adaptation to reduce competition between forage or biofuel crops and food crops. Implementation of new breeding technologies to increase genetic gain and adaptation has lagged in forages due to the complexity of the genetics, phenotyping and costs associated with evaluation of quality.
+\noindent The chile pepper is perhaps New Mexico's most important cultural icon, prompting the foundation of the official state question, ``Red or Green?''. Important in this identity is the pepper variety (e.g. Big Jim, Joe E. Parker), where the peppers are grown (e.g. Hatch for green, Chimayo for dried red), how hot they are, and what kind of heat they have. The New Mexico pod type balances a broad, medium heat with a unique flavor so familiar to native New Mexicans, they can sniff out a chile roast a mile away. 
+
+Increasingly, chile cultivation has expanded into western NM, Luna County, as well as into Colorado, and California, with the aromas of fresh roasted Hatch green chile reaching grocery store parking lots at least as far away as Ithaca, NY (personal observation, 2014-2017). Processing peppers have also become more important as Americans seek a little more spice in their culinary lives. 
+
+The reduction in available manual labor, and the increased cost of that labor threaten chile production in NM unless a viable mechanization method can be deployed for harvesting all pod types for fresh and processing uses. New varieties with adapted plant architectures that enable mechanical harvest  will need bred to keep this industry viable. Proximal sensing has the potential to help solve this problem by monitoring growth and fruit development, selection can be made on branching and fruit set patterning that facilitate mechanical harvesting. 
+
+Stability in production is also important in the chile pepper industry. Variability in production due to disease, water stress, heat and other factors makes the crop risky for farmers to plant when maize, cotton and onion provide more stable annual crop alternatives. Variability also affects consumers, who desire predictability in flavor, flesh and especially heat of the peppers they buy. 
+
+I intend to develop the foundational capabilities to update the chile breeding program at NMSU to utilize $21^\text{st}$ century breeding technology. This will include the collection, storage and accessibility of genome-wide information, pedigrees, high throughput phenotypes collected through proximal sensing, and phenotypes from field trials. 
+
+
+\subsection*{Grant 1 Short-term gains: Stability of capsaicin and carotenoid production}
+
+Anyone who has been consuming peppers throughout their life knows how variable they can be, within a single cultivar, year, field, or even on single plant. This is puzzling, given the genetics dont vary with an inbred variety, so ostensibly, only the environment changes. However this does not hold true for all peppers. While jalape\~{n}os and green chiles can excite (and disappoint) when it comes to heat, other peppers such as Thai and haba\~{n}ero peppers seem more consistently spicy. This apparent \gxe\, suggests that there may be genetic factors controlling the variability in heat. More importantly, we may be able to predict and select for these dispersion traits. The production of varieties with stable characteristics is of high priority for farmers, as this allows them to more easily secure a market to sell to.
+
+Double hierarchical generalized linear models can allow for modeling genetic effects in the variability, or dispersion, of a trait (or traits). Similarly, hierarchical Bayesian models can be constructed to capture similar genetic heterogeneity in residuals. Using a diverse panel of jalepe\~{n}o and an NM chile cultivars as examples, with a haba\~{n}ero as a control, genetic heterogeneity for dispersion parameters of capsaicin and carotenoid production will be assessed in a irrigated and managed drought stress field trials. Genomic predictability of trait stability will be determined using genome-wide prediction models, and a scan for important loci effecting variability (i.e. vQTL) will be performed. If found to be heritable, I intend to use genomic selection to improve and release a jalepe\~{n}o and a NM chile with improved heat stability at medium heat levels for the respective types. Cayenne types may also be used to investigate and select for stability of carotenoid production in a similar fashion. 
+
+% These types of methodologies are not limited to capsaicin production. 
+
+% Using double heirarc
+
+\subsection*{Grant 2 Long-term performance: Proximal sensing and machine learning for mechanical harvesting}
+
+In order to understand the impact of plant growth and development on quantitative traits, we must be able to monitor plant development to fit genotype specific growth curves through time. Proximal sensing with relatively inexpensive unmanned aerial vehicles and ground robots can collect high-throughput phenotypes related to growth, and can be used construct three dimensional plant architecture models. Such information can be used to augment phenotypic and genotypic information on expensive phenotypes, such as capsaicin or carotenoid content, and predict genetic values when measurement is too costly or otherwise infeasible.
+
+While much progress has been made for dried red chiles, including through mechanical harvesting of green chile is still a challenge due to the necessity to harvest before the crop has dried. While machinery has been developed through collaboration with engineers at NMSU to harvest green chiles, canopy development and fruit set can be optimized to maximize fruit removal while minimizing damage. Modification of canopy architecture can also change quantitative resistance to pathogens such as \emph{Phytophthora capsici} through avoidance, narrow flowering time for uniform maturity, and increase resilience to heat and drought stress.
+
+Machine learning algorithms, such as convolutional neural networks, can be trained to extract useful predictors of phenotypic traits from proximal sensing data, which can in turn be used in quantitative genetics models to predict line performance for multiple traits. Collection of dense phenotypic and genotypic information, along with environmental information, will allow all data experiments generated in a program (and beyond) to be linked, allowing researchers to share information and build predictive models manifold traits, from flavor profiles to mechanical harvesting.
+
+% While collaboration with engineers at NMSU to further improve mechanical harvesting equipment will certainly be necessary.
+
+
+% processing peppers, such as Cayanne
 
 
 
-\subsection*{Grant 1}
+% Carotenoids are important parts of our diet as provitamin A, and generally increase the aesthetic value of our dishes. 
 
-Alfalfa, known as the ``Queen of forages'' for its high protein content, is the most important forage crop in US, outproduced only by maize, soy and wheat. Introgression of beneficial alleles in alfalfa is exceedingly difficult due to high inbreeding depression and the autotetraploid nature of the crop. As an obligate out-crosser, alfalfa must always be bred on a population level, where varieties are released as synthetics to avoid inbreeding and take advantage of population level heterosis. This has limited implementation of marker-based selection because large numbers of individuals must be genotyped and inter-mated to avoid inbreeding in future generations. Further complicating the use of markers is which individual(s) should be selected for genotyping to represent a given variety. Single individuals are not representative of the variety as a whole, and genotyping large numbers of individuals from each variety is costly and restrictive.
-
-To implement genomic selection (GS) in alfalfa for adaptation to sustainable agronomic practice and marginal lands, I propose a new population-level genomic selection framework (popGS). Tissue from many individuals within a variety or breeding line will be bulked for DNA extraction and genotyped together. This will reduce genotyping costs while still allowing the standard genomic prediction framework to operate on allele counts in the population as opposed to allele counts within a single individual. A sequence based marker platform will need to be built to address the need to estimate allele frequencies of varieties, preferably with the ability to track greater than 2 alleles. PopGS will allow for prediction of additive effects for genetic gain, as well as dominance effects to exploit population level heterosis. 
-
-A training set will be developed by genotyping varieties and breeding lines from the Cornell forage breeding population and other sources that have been recently phenotyped. Moving forward, all new entries into the program will be genotyped in this fashion. New populations will be developed with ``blending crosses'' where individuals from phenotyped lines will be planted in relevant proportions and inter-mated to produce the desired population allele frequencies. This allows popGS to work in a fluid fashion, where new varieties are constructed by mixing the best alleles together in optimal frequencies to leverage high additive and non-additive effects in the resulting populations. This methodology may also be used for integration of CRISPR gene edits from single individuals into elite germplasm at high frequencies.
-
-% CRISPR methodology is still in its infancy, but once individual plants can be transformed at all four alleles, crossing into elite germplasm will still be a challenge. Half-sib families will be at best duplex for the CRISPR allele, with further reduction in frequencies due to the inability to intracross or backcross. PopGS can be used to enrich CRISPR allele frequencies until phenotypic evaluation is feasible.
-
-% A modified rhAmpSeq approach will be built to capture sequences likely to differ at more than one site such that multiple alleles can be tracked.  One approach may include building primer sets that are anchored in exons, but span introns, in order to maximize the likelihood of amplification and sequence differences. Specific motifs? THIS PARAGRAPH NEEDS WORK!
-
-The first grant proposal will evaluate the efficacy of popGS, both theoretically and empirically, to be submitted within the first year. Theory and simulation will be supported by genotyping a study that has already been phenotyped, and used as a proof of concept (POC). The POC paper will submitted within the a year as the first milestone of the grant. The diallel consisting of crosses between the nine source populations of alfalfa evaluated at NMSU (Segovia Lerma et al. 2004) is the current target for the POC study, but other trials may also be considered.% We will also genotype varieties that have been previously phenotyped in order to provide a proof of concept (POC) study as the first milestone of the grant. 
-
-
-\subsection*{Grant 2}
-
-Unlike most other agronomic crops, forages are typically harvested multiple times per year, with three to ten cuts a season depending on latitude. Many forages such as alfalfa are also perennial crops, and require 3 to 4 years of phenotyping to evaluate stand persistence. On top of this, forage quality must be measured to gauge animal nutrition and digestibility, but is expensive to phenotype in both cost and labor. This makes for a heavy phenotypic burden on the breeding program that stands to benefit from the aid of digital ag. 
-
-Forage cover crops are highly effective for soil rejuvenation, but the genetic variability of these processes is largely unknown because looking underground is notoriously difficult. Root phenotypes will be key to modeling carbon and nitrogen cycling, drought response, and nodulation. Tap- and fine-root architecture and turnover phenotypes will be collected through time by sampling 1 meter cores with plots (Santantonio et al. 1977), but strategies to economically select for these traits are desperately needed. %Tap root morphology will be measured using cores within the drill strip row, while fine root structure will be evaluated from cores sampled between drill strips within each plot. Root phenotypes will be taken twice per year, after the first and last harvests of the season, to determine root growth cycles. 
-
-To mitigate the phenotypic burden of multiple years, cuts and the measuring of root traits, hyper spectral imaging data will be collected from drones throughout each growth cycle to produce high throughput phenotypes (HTP). Genetic correlations of low throughput phenotypes (LTPs) and HTPs will be estimated using a training population and used to build genomic prediction models to predict unobserved LTPs. HTPs will also be used to develop population specific growth curves to model development above and below ground under differing biotic and abiotic stressors. Instead of waiting for three year trials to come to completion, fast cycle selection and blending crosses will be performed on a yearly basis using popGS and all available HTPs and LTPs from historical and in-field material. Training models will be updated annually with HTP and LTP information from plots in the field. 
-
-The second grant proposal will evaluate incorporation of HTP into a fast cycle forage breeding program, and will be submitted during the second year. The efficacy of HTP selection will be assessed using several selection schemes, where crosses will be made based on genotype predictions alone, genotype plus HTP, and genotype plus HTP and LTP, along with selection on LTPs alone as a control.   
-% (i.e. popGS) of cycle 0 at year 1 (C0Y1), genotype predictions including HTP at year 1, and phenotypic information from year 1 alone. After 1 round of selection, the resulting populations will be planted in the field for evaluation (C1.1). Additional phenotypes from cycle 0, year 2 (C0Y2) and cycle 1, year 1 (C1Y1) will be used to update prediction models for an additional round of selection from both C0 and C1 to produce C1.2 and C2.1 populations, respectively. Three year evaluation of these three generations will be contrasted to determine the merit of HTP assisted popGS. 
-
-\subsection*{Grants 3 and 4}
-
-Forage crops are only one part of an agronomic biological system which includes soil microorganisms, the animals that feed on the forages and the microbiome of those animals. Other than host-pathogen interactions, little attention has been paid to genomic interactions between these organisms (i.e. \gxg), despite an overall notion that they are important. These interactions can be thought of as a special case of the \gxe\ problem, where the covariance of the ``environment'' (e.g. soil microorganisms) can be determined by genotyping that ``environment''. Interactions can then be modeled using standard \gxe\ machinery, where the genetic covariance of the biological combinations is a Kronecker product of their genetic relationships. Two interacting systems will be targeted for research into \gxg: the interaction between legume and soil microbes, and the interaction between animal and feed. 
-
-As a legume, alfalfa and other leguminous forages can form symbiotic relationships with nitrogen fixing bacteria, \emph{Rhizobium}. Unfortunately, the signaling and infection process for nodulation is typically reduced or absent under all but the lowest soil nitrogen levels. Collection, mutagenesis, and transformation of \emph{Rhizobium} may enable the genetic variation necessary for simultaneous \gxg\ selection of host variety and symbiont. Genetic increases in nodulation could allow for the use of less chemical fertilizer, reducing the environmental impact of nitrogen runoff. The use of \gxg\ prediction models will allow for targeted selection of host symbiont combinations for testing that are likely to be beneficial. Whole genome expression of both host and symbiont as an intermediate interaction phenotype may also aid in understanding the genetic variation in signaling between the two species through time, under contrasting levels of available nitrogen. This may help us to understand how to select for changes in gene expression to increase the rate of colonization, as well as nitrogenase and leghemaglobin expression, even when some nitrogen is available in the soil. 
-
-% On the other side of the plant, 
-
-There has been considerable research into nutrition of different feeds and how they interact with the microbiome of the rumen in dairy cows. While measures of forage quality are considered, little is known about the effect of different varieties on the animal and its microbiome. I seek to establish a collaboration with the animal nutrition department, local dairy farmers, and animal genetics companies that serve the Northeast to investigate the potential for synergistic forage and animal breeding. Instead of breeding animals independently of their feed, we can start to breed specialized animals to specialized feeds. While it will take time to establish relationships with animal breeders, dairy and hay farmers, bringing these communities together would set precedent for future long term integrated breeding operations.
-
-% \section{other ideas}
-
-% There is also interest in short term alfalfa crops, which can provide a large percentage of the field health gain of a full alfalfa cycle in only one or two years. This well have to be coupled with selection for high seed production under low planting density, a known a bottle neck in an alfalfa agronomic system. %There is also interest in short term alfalfa crops, which can provide a large percentage of the field health gain of a full alfalfa cycle in only one or two years. 
-
-% \subsection*{Personnel}
-
-% I would like to hire one post doctoral associate and one graduate student for the first year, with the potential for additional graduate students and post docs for the following year depending on grant funding. The post doc will work with me to write the popGS theory and simulation paper. The graduate student will be responsible for development of the population level genotyping platform using seed from the previously phenotyped population we select for the POC, with guidance from myself and the post doc. This will lead to two companion manuscripts, with the first on the genotyping platform, and the second on the results from the popGS POC study. 
-
-% The forage breeding program at Cornell consists of a strong team, whose knowledge and experience will be invaluable to implementing a successful GS breeding program. Additional personnel will be brought on as necessary, including a technician to operate and manage all HTP equipment and activities.
-
-% \subsection*{A forage community}
-
-% One of the challenges is the lack of large phenotypic records for alfalfa in any alfalfa breeding program.
-
-% To encourage collaboration, data sharing and a global initiative, I would like to work toward an initiative to create a North American forage database using an available platform such as T3, or BassavaBase. All tools built by our lab will be made publicly available through the (BRAPI/ galaxy etc?) to allow forage breeding programs throughout the world to make more informed mating decisions. Other programs that produce useful tools for forage breeding will also be encouraged to link them to the $\alpha\alpha$Base through BRAPI.
-
-% % Th to encourage public (and perhaps private?) breeding programs to contribute and use data to . We want to implement a genomic prediction tool for alfalfa breeders that will also design idealized mating schemes .
-
-% I intend to continue to foster collaborations built by Dr. Don Viands and his forage breeding research team, while hoping to expand them with new research groups, such as that of Animal Nutrition (Cornell), Ian Ray (NMSU), Charlie Brummer (UC Davis), Maria Monteros (Noble Foundation), and Debby Samac (USDA ARS at UMN, and the new forage breeder they are currently looking to hire). The forage breeding program at Cornell consists of a strong team, whose knowledge and experience will be invaluable to implementing a successful GS breeding program. Additional personnel will be brought on as necessary, including a technician to operate and manage all HTP equipment and activities.
+% Build predictive models for carotenoid production, disease resistance, 
 
 
 
-% If proven useful, I intend to establish collaborations to implement the strategies outlined here in other forage programs in the US and abroad.    
+% Flavor profiles.
 
-% Finally, I recognize that the forage breeding project currently focuses on many forages other than alfalfa. It is my intent to keep those projects, while incorporating new technologies for genetic gain in these crop. My focus on alfalfa is driven by the need for reliable GS methods in a polyploid crop that must be bred at the population level. I am open to new species as well, especially if a graduate student has a desire to investigate such species.  
+% 3D plant architecture
 
-
-
-% The third grant proposal will be to unify breeding efforts. Genotype by genotype interactions. 
-
-% Field establishment 
+% remote sensing to build 3d models. 
 
 
-% Other long term goals include:
+\subsection*{Grant 3: Implementation of a 21st century breeding program using pepper as a model organism}
 
-% Collaborate with the Agro-ecology biochemistry.  CRISPR will be used to change both the Rhizobium as well as the plant. 
+To accelerate improvement of traits associated with response to stress, plant architecture and quantitative disease resistance, the breeding program must take advantage of the latest breeding technologies. While there has been much discussion on genomics assisted breeding efforts, very little literature focuses on the actual implementation. Because pepper is a annual self-pollinated diploid, it makes a relatively simple system for evaluation of new breeding technologies. As a proof of concept, I intend to use pepper as an model organism to ask important questions about how a traditional breeding program can be adapted to a 21st century breeding program. 
 
-% Collaboration with the animal nutrition department. sciences
+A low cost, moderate density genotyping platform will need to be developed to enable genotyping of all lines that are evaluated in the field. Aerial and ground proximal sensing phenotypes will also be collected regularly and used to monitor development, fit growth models and predict plant architecture. A public \emph{Capsicum} database will need to be hosted to store phenotypic trial data, pedigrees, genotypes, proximal sensing images, that can be easily accessed and queried. This will be based on the CassavaBase database architecture, constructed and made publicly available by the Sol Genomics Network at the Boyce Thompson Institute. 
 
+To build a training set for genomic prediction, all materials represented in recent field trials will be genotyped, as well as all new material that enters into the phenotypic pipeline. Field experimental design will then be optimized to leverage all phenotypic information available, using genotypic information to link otherwise unrelated trials. Eventually, rapid-cycle genomic selection using mathematical optimization will be implemented for expedited improvement of quantitative traits.
 
-% A technician will be recruited to operate the HTP platform. 
+\subsection*{Research Philosophy}
 
-% Implementation of marker-based selection has also lagged because large numbers of individuals must be genotyped to avoid inbreeding depression in future generations. 
+In the era of data, the sheer amount of testable hypotheses is seemingly limitless. A shift away from small designed experiments to large observational studies on the breeding program (or whole organism) scale is inevitable. A traditional breeding program generates a plethora of phenotypic data that is used to make yearly breeding decisions, and subsequently discarded. If these materials are genotyped, a feasible proposition given the drastic reduction in costs and availability of third party services, these become treasure troves of data for asking questions, as well as making breeding decisions. This does not mean that we should cease the design and execution of experiments to address specific hypotheses, but we cannot ignore the valuable resource of observational data being collected, generally at great expense.
 
+I believe in the collaborative model, where breeding programs do not operate in isolation. They share germplasm, resources, expertise, and most importantly ideas. Ideas, unlike germplasm, also have the merit of being species flexible. 
 
-
-
-
+Ideas presented here are not limited to peppers, indeed they apply to all crop species. I intend to build a collaborative effort at NMSU to aid all breeding programs to build foundational capabilities to increase efficiency of varietal development. New Mexico also provides an important environment for plant breeding that is likely to be experienced by more farms throughout the globe as climate change progresses. Heat, drought, intense storms and hard frosts will be the new norm, and we must work together to defend our food security through accelerated genetic improvement. 
 
 \end{document}
