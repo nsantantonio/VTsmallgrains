@@ -226,7 +226,7 @@
 
 
 \begin{document}
-\frame[label=current]{
+\frame[label=always]{
 \titlepage
 }
 
@@ -235,7 +235,7 @@
 \section{New Mexico State University}
 \subsection{Alfalfa}
 
-\frame[label=current]{
+\frame[label=always]{
 \frametitle{About Me: New Mexico State University -- Alfalfa (\emph{Medicago sativa}) }
     \begin{columns}
         \begin{column}{0.5\linewidth}
@@ -285,7 +285,7 @@
 \section{Cornell University}
 \subsection{Wheat}
 
-\frame[label=current]{
+\frame[label=always]{
 \frametitle{Cornell University}
 % BS Genetics NMSU 2010 \\
 
@@ -344,7 +344,7 @@ PhD Plant Breeding 2018
 \subsection{Quantitative Genetics}
 
 
-\frame[label=current]{
+\frame[label=always]{
 \frametitle{Cornell University}
 % BS Genetics NMSU 2010 \\
 
@@ -389,7 +389,7 @@ Kelly Robbins (Quantitative Genetics)
 \subsection{Outline}
 
 
-\frame[label=current]{
+\frame[label=always]{
 \begin{columns}
 \begin{column}{0.3\linewidth}
 \large{Plant breeding}
@@ -509,7 +509,7 @@ Kelly Robbins (Quantitative Genetics)
 
 }
 
-% \frame[label=current]{
+% \frame[label=always]{
 %   \frametitle{Greatest gains in wheat during the 20$^\text{th}$ Century}
 % \begin{columns}
 % \begin{column}{0.6\linewidth}
@@ -584,26 +584,14 @@ Kelly Robbins (Quantitative Genetics)
 
 
 
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{Greatest gains in wheat during the 20$^\text{th}$ Century}
 \begin{columns}
 \begin{column}{0.6\linewidth}
-  Green Revolution
-    \begin{itemize}
-      \item Improve yield under high N
-        \item Homeologous Rht-1 dwarfing genes on 4B and 4D
-      % \begin{itemize}
-      %   \item Homeologous Rht-1 dwarfing genes on 4B and 4D
-      % \end{itemize}
-      % \item Other well known homeologous genes
-      % \begin{itemize}
-      %   \item \emph{Vrn}, \emph{Ppd}, color 
-      % \end{itemize}
-      % \item Can fix beneficial homeologous pairs on a genome-wide scale
-    \end{itemize}
+
+\highlite{Much of the low hanging fruit has been picked}\\
 
 \vspace{3mm}
-
 Disease and insect resistances
     \begin{itemize}
       \item Leaf and stem rust, Scab (?), Hessian fly, etc.
@@ -611,16 +599,37 @@ Disease and insect resistances
 
 \vspace{3mm}
 
-\highlite{Most of the low hanging fruit has been picked!}\\
+Green Revolution
+  \begin{itemize}
+    \item Improve yield under high N
+ \visible<4->{\item Semi-dwarfs: Homeologous Rht-1 dwarfing genes on 4B and 4D}
+    % \begin{itemize}
+    %   \item Homeologous Rht-1 dwarfing genes on 4B and 4D
+    % \end{itemize}
+    % \item Other well known homeologous genes
+    % \begin{itemize}
+    %   \item \emph{Vrn}, \emph{Ppd}, color 
+    % \end{itemize}
+    % \item Can fix beneficial homeologous pairs on a genome-wide scale
+  \end{itemize}
 
+
+
+\visible<5>{
+  
 \vspace{3mm}
-
-  Areas of potential
+  What other homeologous genes are important?
     \begin{itemize}
-      \item Maximizing predictable G$\times$E
-      \item Nitrogen use efficiency
-      \item Scab (!)
+    \item \emph{Vrn}, \emph{Ppd}, kernel color 
+    \item \highlite{Can we find and fix beneficial homeologous pairs on a genome-wide scale?}
     \end{itemize}
+}
+    % Areas of potential
+    % \begin{itemize}
+    %   \item Maximizing predictable G$\times$E
+    %   \item Nitrogen use efficiency
+    %   \item Scab (!)
+    % \end{itemize}
 % \highlite{Highly quantitative...}
 \end{column}
 
@@ -638,16 +647,16 @@ Disease and insect resistances
   \node (wheat3) at (2,0) {\includegraphics[height = 3cm]{"\string~/Dropbox/wheatCartoons/wheatHuge"}};
   }
 
-  \visible<3->{
+  \visible<3>{
   \node[rotate = 80] (wheat1) at (0,-1) {\includegraphics[height = 3cm]{"\string~/Dropbox/wheatCartoons/wheatHuge"}};
   \node[rotate = 80] (wheat2) at (1,-1) {\includegraphics[height = 3cm]{"\string~/Dropbox/wheatCartoons/wheatHuge"}};
   \node[rotate = 80] (wheat3) at (2,-1) {\includegraphics[height = 3cm]{"\string~/Dropbox/wheatCartoons/wheatHuge"}};
   }
 
-  \visible<4>{
-  \node (wheat1) at (0,-3) {\includegraphics[height = 2cm]{"\string~/Dropbox/wheatCartoons/wheatLarge"}};
-  \node (wheat2) at (1,-3) {\includegraphics[height = 2cm]{"\string~/Dropbox/wheatCartoons/wheatLarge"}};
-  \node (wheat3) at (2,-3) {\includegraphics[height = 2cm]{"\string~/Dropbox/wheatCartoons/wheatLarge"}};
+  \visible<4->{
+  \node (wheat1) at (0,0) {\includegraphics[height = 2cm]{"\string~/Dropbox/wheatCartoons/wheatLarge"}};
+  \node (wheat2) at (1,0) {\includegraphics[height = 2cm]{"\string~/Dropbox/wheatCartoons/wheatLarge"}};
+  \node (wheat3) at (2,0) {\includegraphics[height = 2cm]{"\string~/Dropbox/wheatCartoons/wheatLarge"}};
   }
 
 
@@ -658,10 +667,151 @@ Disease and insect resistances
 }
 
 
+\subsection{Allohexaploid wheat}
+
+\frame[label=always]{\frametitle{Evolution of allohexaploid wheat}
+\begin{columns}
+\begin{column}{0.37\linewidth}
+  \includegraphics<1>[clip, trim = 0cm 0cm 3.5cm 0cm, width=0.95\linewidth, page = 5]{"\string~/Dropbox/CUpres/wheatEvo5"}%
+  \includegraphics<2>[clip, trim = 0cm 0cm 3.5cm 0cm, width=0.95\linewidth, page = 6]{"\string~/Dropbox/CUpres/wheatEvo5"}%
+  \includegraphics<3>[clip, trim = 0cm 0cm 3.5cm 0cm, width=0.95\linewidth, page = 7]{"\string~/Dropbox/CUpres/wheatEvo5"}%
+  \includegraphics<4->[clip, trim = 0cm 0cm 3.5cm 0cm, width=0.95\linewidth, page = 8]{"\string~/Dropbox/CUpres/wheatEvo5"}%
+\end{column}
+
+\begin{column}{0.5\linewidth}
+  \emph{Triticum aestivum}
+  \begin{itemize}
+    \visible<2->\item AA $\times$ BB $\sim$ 0.5 Mya
+    \visible<3->\item AABB $\times$ DD $\sim$ 10,000 ya
+  \end{itemize}
+\vspace{4mm}
+ \visible<4->{
+ Allohexaploid
+  \begin{itemize}
+    \item Disomic inheritance 
+    \item Autogamous 
+    \item Allelic diversity preserved across subgenomes
+  \end{itemize}
+}
+ \visible<5>{\highlite{Is wheat an immortalized hybrid?}}
+\end{column}
+% \vfill
+\end{columns}
+}
+
+
+
+\subsection{Motivation}
+
+% \tikzset{>=stealth'}
+
+\frame[label=always]{\frametitle{Hybrid generation}
+  \begin{center}
+\begin{tikzpicture}[node distance=2cm and 1cm, auto, draw = DarkGray]
+  \node (invisT) at (1, 4) {};
+  \node (invisB) at (1, 2) {};
+  \node (E)[align=left] at (0, 3) {Reciprocal \\ recurrent \\ selection};
+  \node (OP) at (5, 4) {{\color{B}X}, {\color{A}x}, \ {\color{A}Y}, \ {\color{B}y}, \ {\color{B}Z}, \ {\color{A}z}};
+  \node (pop) at (9, 4) {Open Pollinated};
+  \node (A) at (3, 1) {{\color{A}xxYYzz}};
+  \node (groupA) at (0, 1) {Group {\color{A}A}};
+  \node (B) at (7, 1) {{\color{B}XXyyZZ}};
+  \node (groupB) at (10, 1) {Group {\color{B}B}};  
+  \draw [thick, ->] (OP) -- (A);
+  \draw [thick, ->] (OP) -- (B); 
+  \draw [thick, ->] (invisT) -- (invisB); 
+  \pause
+  \node (AB) at (5, 0) {{\color{A}x}{\color{B}X}{\color{A}Y}{\color{B}y}{\color{A}z}{\color{B}Z}};  
+  \node (hybrid) at (8, 0) {Hybrid};  
+  \draw [thick, ->] (A) -- (AB);
+  \draw [thick, ->] (B) -- (AB); 
+  \pause
+  \node (Int) at (5, -1) {allelic interactions! \highlite{(dominance)}};
+\end{tikzpicture}
+\end{center}
+}
+
+
+\frame[label=always]{\frametitle{Allopolyploid formation}
+  \begin{center}
+\begin{tikzpicture}[node distance=2cm and 1cm, auto, draw = DarkGray]
+  \node (invisT) at (1, 4) {};
+  \node (invisB) at (1, 2) {};
+  \node (E)[align=left] at (0, 3) {Mutation \& \\ natural \\ selection};
+  \node (OP) at (5, 4) {$x \ y \ z$};
+  \node (pop) at (9, 4) {Common Ancestor};
+  \node (A) at (3, 1) {{\color{A}xxYYzz}};
+  \node (groupA) at (0, 1) {Species {\color{A}A}};
+  \node (B) at (7, 1) {{\color{B}XXyyZZ}};
+  \node (groupB) at (10, 1) {Species {\color{B}B}};  
+  \draw [thick, ->] (OP) -- (A);
+  \draw [thick, ->] (OP) -- (B); 
+  \draw [thick, ->] (invisT) -- (invisB); 
+  \pause
+  \node (AB) at (5, 0) {{\color{A}xx}{\color{B}XX}{\color{A}YY}{\color{B}yy}{\color{A}zz}{\color{B}ZZ}};  
+  \node (hybrid) at (8, 0) {Homeo-Hybrid};  
+  \draw [thick, ->] (A) -- (AB);
+  \draw [thick, ->] (B) -- (AB); 
+    \pause
+  \node (Int)  at (5, -1) {homeoallelic interactions? \highlite{(homeologous epistasis)}};
+\end{tikzpicture}
+
+\visible<4>{\highlite{With markers and a genome, we can now ask this question!}}
+\end{center}
+}
+
+
+\frame[label=always]{\frametitle{Homeologous interactions explain much of non-additive genetic signal}
+\begin{columns}
+\begin{column}{.4\textwidth}%
+\includegraphics<1>[page=1, clip, trim = 0cm 9cm 7cm 0.3cm, width=0.9\linewidth]{"\string~/Dropbox/CUpres/armCartoon2"}%
+
+\includegraphics<1>[page=2, clip, trim = 0cm 9cm 7cm 0.3cm, width=0.9\linewidth]{"\string~/Dropbox/CUpres/armCartoon2"}%
+
+\includegraphics<2->[page=3, clip, trim = 0cm 9cm 7cm 0.3cm, width=0.9\linewidth]{"\string~/Dropbox/CUpres/armCartoon2"}%
+
+\includegraphics<2>[page=2, clip, trim = 0cm 9cm 7cm 0.3cm, width=0.9\linewidth]{"\string~/Dropbox/CUpres/armCartoon2"}%
+
+\includegraphics<3->[page=4,  clip, trim = 0cm 9cm 7cm 0.3cm, width=0.9\linewidth]{"\string~/Dropbox/CUpres/armCartoon2"}% 
+\end{column}%
+\begin{column}{.2\textwidth}%
+    
+    \begin{itemize}
+      % \visible<1-3>{\item How much non-additive genetic signal is explained by homeologous?}
+      \visible<3->{\item Tag homeologous gene sets with markers}
+      \visible<4>{
+      \item $\sim$ 60-75\% non-additive genetic signal
+      \item \highlite{Can find and fix!}
+      }
+    \end{itemize}
+
+\end{column}
+\begin{column}{.4\textwidth}%
+\centering
+\begin{tikzpicture}
+  \node (graph) at (0, 0) {
+\includegraphics<1>[page = 1, width=0.8\linewidth]{"\string~/Dropbox/MasterGenotypeswithOHMI/predAccBarPlotHomeoBig"}%
+\includegraphics<2-3>[page = 2, width=0.8\linewidth]{"\string~/Dropbox/MasterGenotypeswithOHMI/predAccBarPlotHomeoBig"}%
+\includegraphics<4>[page = 3, width=0.8\linewidth]{"\string~/Dropbox/MasterGenotypeswithOHMI/predAccBarPlotHomeoBig"}%
+  };
+  % \node (cite) at (0.5, 2.8) {{\visible<1-5>{\tiny{Santantonio, Jannink and Sorrells (2019a; G3)}}}};
+
+\end{tikzpicture}
+
+\visible<1->{Use genomic prediction to evaluate genetic signal}
+
+\end{column}
+\end{columns}
+
+}
+
+
+
+
 \usebackgroundtemplate{%
 \tikz\node[opacity=0.3] {\includegraphics[height=\paperheight,width=\paperwidth]{"\string~/Dropbox/CUpres/truck"}};}
 
-\frame[label=current]{
+\frame[label=always]{
   \begin{tikzpicture}
 
     \node (epiEffGenet) at (0, 0) {\includegraphics[width = 0.45\linewidth]{"\string~/Dropbox/paperHeadshots/epiEffGenet"}};
@@ -682,6 +832,8 @@ Disease and insect resistances
     \node (ob) at (5,-1) {Organism biology};
     \node at (8,-1) {\begin{tabular}{c} Genome-wide\\markers \end{tabular}};
     \node at (10.5, -1) {Statistics};
+  \node at (10, -4) {\includegraphics[width=0.2\linewidth]{"\string~/Dropbox/epiEff/cover"}};%
+
   \end{tikzpicture}
 }
 \usebackgroundtemplate{}
@@ -693,7 +845,7 @@ Disease and insect resistances
 
 \subsection{Breeder's equation}
 
-\frame[label=current]{
+\frame[label=always]{
 \frametitle{Let's start with the breeder's equation}
   \centering
     \begin{tikzpicture}
@@ -726,7 +878,7 @@ Disease and insect resistances
 
 
 % \frame{\frametitle{$21^\text{st}$ Century Plant Breeding Pipeline}
-\frame[label=current]{\frametitle{A traditional breeding program}
+\frame[label=always]{\frametitle{A traditional breeding program}
 % High throughput phenotypes serve \highlite{2} purposes for breeding:
 
 \begin{columns}
@@ -803,7 +955,7 @@ Disease and insect resistances
 \subsection{Breeder's equation}
 
 
-\frame[label=current]{
+\frame[label=always]{
 \frametitle{Which terms can we easily exploit?}
   \centering
     \begin{tikzpicture}
@@ -837,7 +989,7 @@ Disease and insect resistances
 }
 
 \subsection{Genomic selection}
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{Incorporating Genomic Selection}
 
   \begin{columns}
@@ -929,7 +1081,7 @@ Disease and insect resistances
 \subsection{Increasing population with genomic prediction}
 
 % \frame{\frametitle{$21^\text{st}$ Century Plant Breeding Pipeline}
-\frame[label=current]{\frametitle{Increasing population size increases intensity}
+\frame[label=always]{\frametitle{Increasing population size increases intensity}
 % High throughput phenotypes serve \highlite{2} purposes for breeding:
 
 % \begin{tikzpicture}
@@ -1068,7 +1220,7 @@ Disease and insect resistances
 
 \subsection{Unobserved vs sparse testing prediction}
 
-\frame[label=current]{\frametitle{Current model for genomic prediction works...}
+\frame[label=always]{\frametitle{Current model for genomic prediction works...}
   \begin{columns}
  
   \begin{column}{0.3\linewidth}
@@ -1151,7 +1303,7 @@ Disease and insect resistances
 }
 
 
-\frame[label=current]{\frametitle{... but can we do better?}
+\frame[label=always]{\frametitle{... but can we do better?}
 
 \begin{columns}
 \begin{column}{0.4\linewidth}
@@ -1225,7 +1377,7 @@ Disease and insect resistances
 
 % \subsection{Sparse testing vs unobserved prediction}
 
-\frame[label=current]{\frametitle{Sparse testing is (almost) uniformly superior to unobserved prediction}
+\frame[label=always]{\frametitle{Sparse testing is (almost) uniformly superior to unobserved prediction}
 
 % \vspace{-0.2cm}
 
@@ -1234,8 +1386,8 @@ Disease and insect resistances
 \vspace{-0.5cm}
 
 \begin{tikzpicture}
-\node at (0, 0) {\includegraphics<1-2>[width= 0.5\linewidth]{"\string /home/nsant/Dropbox/sparseTesting/sparseVsHalfMaizePres"}};
-\node at (8, 0) {\includegraphics<2>[width= 0.5\linewidth]{"\string /home/nsant/Dropbox/chickpeaGit/figures/sparseVsHalfChickpeaPres"}};
+\node at (0, 0) {\includegraphics[width= 0.5\linewidth]{"\string /home/nsant/Dropbox/sparseTesting/sparseVsHalfMaizePres"}};
+\node at (8, 0) {\includegraphics[width= 0.5\linewidth]{"\string /home/nsant/Dropbox/chickpeaGit/figures/sparseVsHalfChickpeaPres"}};
 
 \node at (0, 3.2) {CIMMYT Maize};
 \node at (8, 3.2) {ICRISAT Chickpea};
@@ -1255,7 +1407,7 @@ Disease and insect resistances
 \end{scope}
 
 
-\visible<2>{
+% \visible<2>{
 \begin{scope}[yshift=2.2cm,xshift=9.2cm,scale=0.15]
 \draw[thick, draw=Navy] (0,0) rectangle(2, 4);
 \draw[thick, draw=Navy, fill=Navy] (0,2) rectangle(2, 4);
@@ -1269,7 +1421,7 @@ Disease and insect resistances
 \draw[thick, draw=Navy] (2.5,0) rectangle(4.5, 4);
 \draw[thick, draw=Navy, fill=Navy] (2.5,2) rectangle(4.5, 4);
 \end{scope}
-}
+% }
 
 \end{tikzpicture}
 
@@ -1277,7 +1429,7 @@ Disease and insect resistances
 
 \subsection{Using HTP to recover genotyping costs}
 
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{Marginal savings from plot reduction}
 \begin{columns}
 \begin{column}{0.5\linewidth}
@@ -1371,7 +1523,7 @@ Use drone in place of a note taker or harvester?
 }
 
 
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{Use HTPs to correct for spatial variability, increase intensity}
 
   \begin{columns}
@@ -1391,7 +1543,7 @@ Use drone in place of a note taker or harvester?
     High throughput phenotypes
     \begin{itemize}
       \item Track genetic \& spatial variation 
-      \item Monitor growth, disease progression
+      \item Monitor growth, disease progression (scab?)
     \end{itemize}
   \vspace{5mm}
     Can use to.
@@ -1401,21 +1553,23 @@ Use drone in place of a note taker or harvester?
       \item \highlite{Reduce time to Multi-Env. Trials}
     \end{itemize}
 
+    Potential SmartFarm Collaboration?
+
   \end{column}
   \end{columns}
 
 }
 
-% \frame[label=current]{
+% \frame[label=always]{
 %   \frametitle{}
 % }
 
 
 \subsection{Genotype specific growth curves}
-\frame[label=current]{
+\frame[label=always]{
  \frametitle{Use imagery to model growth, predict G$\times$E}
- % \begin{animateinline}[controls, autoplay,loop]{2}
- \begin{animateinline}[autoplay,loop]{2}
+ \begin{animateinline}[controls, autoplay,loop]{2}
+ % \begin{animateinline}[autoplay,loop]{2}
    % \multiframe{21}{i=1+1}{
    \multiframe{21}{i=1+1}{
      \begin{tikzpicture}
@@ -1433,7 +1587,7 @@ Use drone in place of a note taker or harvester?
 
 
 
-\frame[label=current]{
+\frame[label=always]{
 \frametitle{Time is on our side}
   \centering
     \begin{tikzpicture}
@@ -1581,7 +1735,7 @@ Use drone in place of a note taker or harvester?
 
 \subsection{Rapid cycle recurrent truncation selection} 
 
-\frame[label=current]{\frametitle{Rapid cycle recurrent truncation beats traditional, at first}
+\frame[label=always]{\frametitle{Rapid cycle recurrent truncation beats traditional, at first}
 \begin{columns}
 \begin{column}{0.02\linewidth}
 \end{column}
@@ -1608,7 +1762,7 @@ Use drone in place of a note taker or harvester?
 
 \subsection{Optimal contribution} 
 
-\frame[label=current]{\frametitle{Parent selection must balance mean and variance}
+\frame[label=always]{\frametitle{Parent selection must balance mean and variance}
 \vspace{-1cm}
   \begin{columns}
     \begin{column}{0.5\linewidth}
@@ -1664,7 +1818,7 @@ Use drone in place of a note taker or harvester?
 
 % }
 
-\frame[label=current]{\frametitle{Optimal contributions of parents}
+\frame[label=always]{\frametitle{Optimal contributions of parents}
 % From Akdemir et al. (2019):
 
 
@@ -1700,7 +1854,7 @@ Portfolio optimization problem
 
 % \subsection{Optimal contributions} 
 
-\frame[label=current]{\frametitle{Optimal contributions can maintain $V_g$ at the cost of short-term gains}
+\frame[label=always]{\frametitle{Optimal contributions can maintain $V_g$ at the cost of short-term gains}
 \begin{columns}
 \begin{column}{0.05\linewidth}
 \end{column}
@@ -1724,7 +1878,7 @@ Portfolio optimization problem
 
 \subsection{Optimal contribution with branching} 
 
-\frame[label=current]{\frametitle{Can we have our cake and eat it too?}
+\frame[label=always]{\frametitle{Can we have our cake and eat it too?}
 \begin{columns}
 \begin{column}{0.05\linewidth}
 \end{column}
@@ -1811,7 +1965,7 @@ Rethinking the selection pipeline
 
 \subsection{Selecting for value - building an selection index}
 
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{Selecting for varietal value}
 
   \begin{columns}
@@ -1841,7 +1995,7 @@ Could include other traits
 }
 
 
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{Double cropping system}
 \begin{columns}
 \begin{column}{0.7\linewidth}
@@ -1880,7 +2034,7 @@ Could include other traits
 
 }
 
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{G$\times$G is a special case of G$\times$E}
 
 \begin{columns}
@@ -1937,7 +2091,9 @@ Need an estimate of genetic correlation of environments
 \frame[label=current]{
   \frametitle{Systems integration}
 
-  Synergistic breeding: breed varieties for specific 
+\begin{columns}
+\begin{column}{0.65\linewidth}
+  Synergistic breeding: breed varieties for ecosystem interactions
 
   \begin{itemize}
     \item Soil microbiome testing for variety recommendations
@@ -1946,10 +2102,17 @@ Need an estimate of genetic correlation of environments
   \end{itemize}
 
   Potential to build ``packaged'' products
+
+  \end{column}
+  \begin{column}{0.35\linewidth}
+    \includegraphics[width = \linewidth, clip , trim = 25cm 0cm 0cm 4cm, rotate = 270]{"\string~/Dropbox/interviewFigs/beer"}
+
+  \end{column}
+  \end{columns}
 }
 
 
-\frame[label=current]{
+\frame[label=always]{
   \frametitle{Varietal release is complicated...}
 
   \begin{columns}
@@ -1985,7 +2148,7 @@ Need an estimate of genetic correlation of environments
 
 \section{Phased In Approach}
 \subsection{From the Foundation Up}
-\frame[label=current]{%\frametitle{Not without foundational capabilities!}
+\frame[label=always]{%\frametitle{Not without foundational capabilities!}
 
 \begin{columns}
 \begin{column}{0.4\linewidth}
@@ -2047,11 +2210,43 @@ Need an estimate of genetic correlation of environments
 }
 
 
+\frame[label=always]{\frametitle{Resources: part of a breeding informatics ecosystem}
+% \hspace{-1cm}
+\begin{tikzpicture}
+\small
+  \node[text=DarkGray] (breeding) at (0, 0) {\Large\textbf{Breeding}};
+  \node (breedbase) at (0, -1) {\includegraphics[width= 0.2\linewidth, clip, trim = 0cm 0cm 0cm 0cm]{"\string ~/Dropbox/plantGenomicsCongress/eibSymbols/breedbase"}};
+
+  \node (ib) at (0, -3) {\includegraphics[width= 0.1\linewidth, clip, trim = 0cm 0cm 0cm 0cm]{"\string ~/Dropbox/plantGenomicsCongress/sgn"}};
+
+  \node (ibt) at (0, -4) {ImageBreed};
+
+  % \node (bms) at (0, -3) {\includegraphics[width= 0.1\linewidth, clip, trim = 0cm 0cm 0cm 0cm]{"\string ~/Dropbox/plantGenomicsCongress/eibSymbols/bms"}};
+
+  % \node (bmst) at (0, -5) {\scriptsize{Integrated Breeding Platform}};
+  % \node (bmst) at (0, -5.3) {\scriptsize{Breeding Management System}};
+  % \node (b4r) at (0, -5.5) {\includegraphics[width= 0.1\linewidth, clip, trim = 0cm 0cm 0cm 0cm]{"\string ~/Dropbox/plantGenomicsCongress/eibSymbols/b4r"}};
+  % \node (b4rt) at (0, -6.5) {\scriptsize{\textbf{B4R}: Breeding For Results}};
+  
+  \node[text=DarkGray] (genomics) at (5, 0) {\Large\textbf{Genomics}};
+  \node (gobii) at (5, -1) {\includegraphics[width= 0.2\linewidth, clip, trim = 0cm 0cm 0cm 0cm]{"\string ~/Dropbox/plantGenomicsCongress/eibSymbols/gobii"}};
+  
+  \node[text=DarkGray] (api) at (10, 0) {\Large\textbf{API}};
+  \node (brapi) at (10, -1) {\includegraphics[width= 0.2\linewidth, clip, trim = 0cm 0cm 0cm 0cm]{"\string ~/Dropbox/plantGenomicsCongress/eibSymbols/brapi"}};
+  
+  \node[text width=8cm, text=DarkGray] (t) at (7, -3) {Multiple systems will need to to communicate and exchange information};
+  
+  \node[text width=8cm, text=DarkGray] (t) at (7, -6) {Excellence in Breeding: Define common standards for open-source breeding informatics systems};
+  
+  \node (eib) at (7, -4.5) {\includegraphics[width= 0.5\linewidth]{"\string ~/Dropbox/plantGenomicsCongress/eibSymbols/eib"}};
+\end{tikzpicture}
+
+}
 
 \usebackgroundtemplate{%
 \tikz\node[opacity=0.3] {\includegraphics[height=\paperheight,width=\paperwidth]{"\string~/Dropbox/CUpres/truck"}};}
 
-\frame[label=current]{
+\frame[label=always]{
   \begin{tikzpicture}
     \node (biorxiv) at (-6, -3) {\includegraphics[width = 0.6\linewidth]{"\string~/Dropbox/paperHeadshots/bioRxiv"}};
     \node at (0, -5.8) {G3: In Review};
@@ -2063,24 +2258,29 @@ Need an estimate of genetic correlation of environments
 \usebackgroundtemplate{}
 
 
-
-
-
-
 \section{Teaching}
 
 
-\frame{
+\frame[label=always]{
   \frametitle{How can we prepare students for this change?}
-
+\begin{columns}
+\begin{column}{0.4\linewidth}
 Multiple paths for instruction
-
+\begin{itemize}
+  \item Generalists
+  \item Specialists 
+  \begin{itemize}
+    \item Quantitative
+  \end{itemize}
+\end{itemize}
+\vspace{3mm}
 Need to introduce ``complex'' ideas earlier
 \begin{itemize}
   \item statistics
   \item programming
   \item machine learning
 \end{itemize}
+\vspace{3mm}
 
 Learning through doing
 \begin{itemize}
@@ -2088,12 +2288,21 @@ Learning through doing
   \item Term projects
 \end{itemize}
 
+\end{column}
+
+\begin{column}{0.6\linewidth}
+\centering
+\includegraphics[width=0.85\linewidth]{"\string~/Dropbox/interviewFigs/Lauren"}
+
+
+\end{column}
+\end{columns}
 
 }
 
 
 \subsection{Quantitative Genetics}
-\frame{\frametitle{Two waring sides}
+\frame[label=always]{\frametitle{Introducing complex ideas through historical perspectives}
 
 \begin{columns}
 
@@ -2148,7 +2357,7 @@ Karl Pearson
 
 
 \subsection{Genetic Variance}
-\frame{\frametitle{Genetic Variance}
+\frame[label=always]{\frametitle{Genetic Variance}
   \begin{tabular}{l}
   Let $n =$ number of individuals \\
   Let P = frequency of AA's \\
@@ -2156,36 +2365,39 @@ Karl Pearson
   Let R = frequency of aa's \\
   \end{tabular} such that $P + 2Q + R = 1$
 
+\begin{columns}
+\begin{column}{0.7\linewidth}
 \begin{align*}
-  \text{E}[\mathbf{x}] &= \frac{1}{n}\sum_{i = 1}x_i \\
+  \text{E}[\mathbf{y}] &= \frac{1}{n}\sum^n_{i = 1}y_i \\
   \mu &= Pa + 2Qd - Ra \\[2em]
   % 0 &= P(a-m) + 2Q(d-m) - R(a-m) 
 % \end{align*}
 % \vspace{5mm}
 % \begin{align*}
-  \text{Var}(\mathbf{x}) &= \frac{1}{n}\sum_{i=1} (x_i - \mu)^2 \\
-    &= P(a-\mu)^2 + 2Q(d-\mu)^2 + R(-a-\mu)^2 
+  \text{Var}(\mathbf{y}) &= \frac{1}{n}\sum_{i=1} (y_i - \mu)^2 \\
+    \alpha &= P(a-\mu)^2 + 2Q(d-\mu)^2 + R(-a-\mu)^2 
 \end{align*}
 
+\end{column}
+
+\begin{column}{0.3\linewidth}
+\visible<2>{
+If $p$ independent factors: \\
+
+\[\text{BV} = \sum^p_{i = 1}x_i a_i\]\\
+
+
+\[\text{V}_g = \sum^p_{i = 1}\alpha_i\]
+}
+\end{column}
+\end{columns}
+
 }
 
 
-\subsection{Genetic Variance}
-\frame{\frametitle{Genetic Variance}
-  Breeder's Equation:
-  \[ \Delta_R = \frac{ir \sigma_a}{c}\]
-  \pause
-  \vspace{-5mm}
-  \begin{center}
-    \includegraphics[width = 0.5\linewidth]{"\string~/Dropbox/PLBRG2010_2017/ModelsInBreedingLecture/additiveDominanceVariancePlot"} 
-  \end{center}
 
 
-}
-
-
-
-\frame{\frametitle{Additive only}
+\frame[label=always]{\frametitle{Additive only}
    \centering
    \begin{columns}
    \begin{column}{0.5\linewidth}
@@ -2212,7 +2424,7 @@ Karl Pearson
 
 
 
-\frame{\frametitle{Additive with Dominance}
+\frame[label=always]{\frametitle{Additive with Dominance}
    \centering
    \begin{columns}
    \begin{column}{0.5\linewidth}
@@ -2239,7 +2451,8 @@ Karl Pearson
 
 
 
-\frame{\frametitle{Using simulation as a teaching tool}
+
+\frame[label=always]{\frametitle{Using simulation as a teaching tool}
 
 Let's start with the single locus:
 \href{https://nsantantonio.shinyapps.io/singlelocus/}{nsantantonio.shinyapps.io/singlelocus/}
@@ -2253,13 +2466,106 @@ What about when there are many loci:
 }
 
 
+\subsection{Genetic Variance}
+\frame[label=always]{\frametitle{Genetic Variance}
+  Breeder's Equation:
+  \[ \Delta_R = \frac{ir \sigma_a}{c}\]
+  \pause
+  \vspace{-5mm}
+  \begin{center}
+    \includegraphics[width = 0.5\linewidth]{"\string~/Dropbox/PLBRG2010_2017/ModelsInBreedingLecture/additiveDominanceVariancePlot"} 
+  \end{center}
+}
 
+\subsection{Genomic Prediction}
+\frame[label=always]{\frametitle{Genomic Prediction of Grain Yield}
+\begin{columns}
+\begin{column}{0.6\linewidth}
+\centering
+\includegraphics[width = 0.65\linewidth]{"\string~/Dropbox/MasterGenotypeswithOHMI/YieldGSplot"} 
+\end{column}
+\begin{column}{0.6\linewidth}
+
+Once marker effects estimated
+\begin{itemize}
+  \item sum them to predict a breeding value!
+  \item breeding decisions based on BV
+\end{itemize}
+
+\vspace{3mm}
+\pause
+Lots of caveats...
+\begin{itemize}
+  \item Start simple
+  \item work toward more complex
+\end{itemize}
+
+\end{column}
+\end{columns}
+}
+
+
+\section{Outreach}
+\frame[label=always]{
+  \frametitle{Outreach}
+\begin{columns}
+
+\begin{column}{0.3\linewidth}
+\highlite{New ways to reach out}
+
+\vspace{3mm}
+\visible<2->{
+Social media presence
+\begin{itemize}
+  \item Twitter
+  \item Instagram
+  \item Science blogs
+\end{itemize}
+}
+\vspace{3mm}
+\visible<3->{
+Involving young people
+\begin{itemize}
+  \item High school summer internships
+  \item Earlier breeding related undergrad courses
+\end{itemize}
+}
+
+\end{column}
+
+\begin{column}{0.7\linewidth}
+\centering
+  \begin{tikzpicture}
+
+    \node (mark) at (0, 0) {\includegraphics[width = 0.6\linewidth]{"\string~/Dropbox/interviewFigs/mark"}};
+    \visible<2->{
+    \node (twitter) at (-1.5, -3.5) {\includegraphics[width = 0.2\linewidth]{"\string~/Dropbox/interviewFigs/twitter"}};
+    \node (insta) at (4, 1.8) {\includegraphics[width = 0.1\linewidth]{"\string~/Dropbox/interviewFigs/insta"}};
+    }
+    \visible<3->{\node (seneca) at (3, -2) {\includegraphics[width = 0.6\linewidth, rotate = 270]{"\string~/Dropbox/interviewFigs/seneca"}};}
+
+  \end{tikzpicture}
+\end{column}
+
+\end{columns}
+
+}
+
+\frame[label=always]{
+\centering
+  \begin{tikzpicture}
+
+    % \node (dpw) at (0, 0) {\includegraphics[width = 0.7\linewidth]{"\string~/Dropbox/interviewFigs/dpw2"}};
+    \node (info) at (0, -3.5) {\includegraphics[width = 0.7\linewidth]{"\string~/Dropbox/DPWstats/infoGraphic/infoGraphic"}};
+
+  \end{tikzpicture}
+}
 
 
 \section{Recognition and Funding}
 % \subsection{Recognition and Funding}
 
-\frame{\frametitle{Recognition}
+\frame[label=always]{\frametitle{Recognition}
 \begin{columns}
 
 \begin{column}{0.2\linewidth}
