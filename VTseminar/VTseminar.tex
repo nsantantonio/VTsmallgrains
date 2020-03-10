@@ -54,7 +54,7 @@
     .jpg,.mps,.jpeg,.jbig2,.jb2,.JPG,.JPEG,.JBIG2,.JB2}
 
 
-\includeonlyframes{current}
+% \includeonlyframes{current}
 
 
 
@@ -226,7 +226,7 @@
 
 
 \begin{document}
-\frame[label=always]{
+\frame{
 \titlepage
 }
 
@@ -235,7 +235,7 @@
 \section{New Mexico State University}
 \subsection{Alfalfa}
 
-\frame[label=always]{
+\frame{
 \frametitle{About Me: New Mexico State University -- Alfalfa (\emph{Medicago sativa}) }
     \begin{columns}
         \begin{column}{0.5\linewidth}
@@ -285,7 +285,7 @@
 \section{Cornell University}
 \subsection{Wheat}
 
-\frame[label=always]{
+\frame{
 \frametitle{Cornell University}
 % BS Genetics NMSU 2010 \\
 
@@ -344,7 +344,7 @@ PhD Plant Breeding 2018
 \subsection{Quantitative Genetics}
 
 
-\frame[label=always]{
+\frame{
 \frametitle{Cornell University}
 % BS Genetics NMSU 2010 \\
 
@@ -389,7 +389,7 @@ Kelly Robbins (Quantitative Genetics)
 \subsection{Outline}
 
 
-\frame[label=always]{
+\frame{
 \begin{columns}
 \begin{column}{0.3\linewidth}
 \large{Plant breeding}
@@ -509,7 +509,7 @@ Kelly Robbins (Quantitative Genetics)
 
 }
 
-% \frame[label=always]{
+% \frame{
 %   \frametitle{Greatest gains in wheat during the 20$^\text{th}$ Century}
 % \begin{columns}
 % \begin{column}{0.6\linewidth}
@@ -584,7 +584,7 @@ Kelly Robbins (Quantitative Genetics)
 
 
 
-\frame[label=always]{
+\frame{
   \frametitle{Greatest gains in wheat during the 20$^\text{th}$ Century}
 \begin{columns}
 \begin{column}{0.6\linewidth}
@@ -669,7 +669,7 @@ Green Revolution
 
 \subsection{Allohexaploid wheat}
 
-\frame[label=always]{\frametitle{Evolution of allohexaploid wheat}
+\frame{\frametitle{Evolution of allohexaploid wheat}
 \begin{columns}
 \begin{column}{0.37\linewidth}
   \includegraphics<1>[clip, trim = 0cm 0cm 3.5cm 0cm, width=0.95\linewidth, page = 5]{"\string~/Dropbox/CUpres/wheatEvo5"}%
@@ -705,7 +705,7 @@ Green Revolution
 
 % \tikzset{>=stealth'}
 
-\frame[label=always]{\frametitle{Hybrid generation}
+\frame{\frametitle{Hybrid generation}
   \begin{center}
 \begin{tikzpicture}[node distance=2cm and 1cm, auto, draw = DarkGray]
   \node (invisT) at (1, 4) {};
@@ -732,7 +732,7 @@ Green Revolution
 }
 
 
-\frame[label=always]{\frametitle{Allopolyploid formation}
+\frame{\frametitle{Allopolyploid formation}
   \begin{center}
 \begin{tikzpicture}[node distance=2cm and 1cm, auto, draw = DarkGray]
   \node (invisT) at (1, 4) {};
@@ -761,7 +761,7 @@ Green Revolution
 }
 
 
-\frame[label=always]{\frametitle{Homeologous interactions explain much of non-additive genetic signal}
+\frame{\frametitle{Homeologous interactions explain much of non-additive genetic signal}
 \begin{columns}
 \begin{column}{.4\textwidth}%
 \includegraphics<1>[page=1, clip, trim = 0cm 9cm 7cm 0.3cm, width=0.9\linewidth]{"\string~/Dropbox/CUpres/armCartoon2"}%
@@ -811,7 +811,7 @@ Green Revolution
 \usebackgroundtemplate{%
 \tikz\node[opacity=0.3] {\includegraphics[height=\paperheight,width=\paperwidth]{"\string~/Dropbox/CUpres/truck"}};}
 
-\frame[label=always]{
+\frame{
   \begin{tikzpicture}
 
     \node (epiEffGenet) at (0, 0) {\includegraphics[width = 0.45\linewidth]{"\string~/Dropbox/paperHeadshots/epiEffGenet"}};
@@ -845,7 +845,7 @@ Green Revolution
 
 \subsection{Breeder's equation}
 
-\frame[label=always]{
+\frame{
 \frametitle{Let's start with the breeder's equation}
   \centering
     \begin{tikzpicture}
@@ -878,7 +878,7 @@ Green Revolution
 
 
 % \frame{\frametitle{$21^\text{st}$ Century Plant Breeding Pipeline}
-\frame[label=always]{\frametitle{A traditional breeding program}
+\frame{\frametitle{A traditional breeding program}
 % High throughput phenotypes serve \highlite{2} purposes for breeding:
 
 \begin{columns}
@@ -955,7 +955,7 @@ Green Revolution
 \subsection{Breeder's equation}
 
 
-\frame[label=always]{
+\frame{
 \frametitle{Which terms can we easily exploit?}
   \centering
     \begin{tikzpicture}
@@ -989,7 +989,7 @@ Green Revolution
 }
 
 \subsection{Genomic selection}
-\frame[label=always]{
+\frame{
   \frametitle{Incorporating Genomic Selection}
 
   \begin{columns}
@@ -1081,7 +1081,7 @@ Green Revolution
 \subsection{Increasing population with genomic prediction}
 
 % \frame{\frametitle{$21^\text{st}$ Century Plant Breeding Pipeline}
-\frame[label=always]{\frametitle{Increasing population size increases intensity}
+\frame{\frametitle{Increasing population size increases intensity}
 % High throughput phenotypes serve \highlite{2} purposes for breeding:
 
 % \begin{tikzpicture}
@@ -1220,7 +1220,7 @@ Green Revolution
 
 \subsection{Unobserved vs sparse testing prediction}
 
-\frame[label=always]{\frametitle{Current model for genomic prediction works...}
+\frame{\frametitle{Current model for genomic prediction works...}
   \begin{columns}
  
   \begin{column}{0.3\linewidth}
@@ -1303,7 +1303,7 @@ Green Revolution
 }
 
 
-\frame[label=always]{\frametitle{... but can we do better?}
+\frame{\frametitle{... but can we do better?}
 
 \begin{columns}
 \begin{column}{0.4\linewidth}
@@ -1377,7 +1377,7 @@ Green Revolution
 
 % \subsection{Sparse testing vs unobserved prediction}
 
-\frame[label=always]{\frametitle{Sparse testing is (almost) uniformly superior to unobserved prediction}
+\frame{\frametitle{Sparse testing is (almost) uniformly superior to unobserved prediction}
 
 % \vspace{-0.2cm}
 
@@ -1429,7 +1429,7 @@ Green Revolution
 
 \subsection{Using HTP to recover genotyping costs}
 
-\frame[label=always]{
+\frame{
   \frametitle{Marginal savings from plot reduction}
 \begin{columns}
 \begin{column}{0.5\linewidth}
@@ -1523,7 +1523,7 @@ Use drone in place of a note taker or harvester?
 }
 
 
-\frame[label=always]{
+\frame{
   \frametitle{Use HTPs to correct for spatial variability, increase intensity}
 
   \begin{columns}
@@ -1560,13 +1560,13 @@ Use drone in place of a note taker or harvester?
 
 }
 
-% \frame[label=always]{
+% \frame{
 %   \frametitle{}
 % }
 
 
 \subsection{Genotype specific growth curves}
-\frame[label=always]{
+\frame{
  \frametitle{Use imagery to model growth, predict G$\times$E}
  \begin{animateinline}[controls, autoplay,loop]{2}
  % \begin{animateinline}[autoplay,loop]{2}
@@ -1587,7 +1587,7 @@ Use drone in place of a note taker or harvester?
 
 
 
-\frame[label=always]{
+\frame{
 \frametitle{Time is on our side}
   \centering
     \begin{tikzpicture}
@@ -1735,7 +1735,7 @@ Use drone in place of a note taker or harvester?
 
 \subsection{Rapid cycle recurrent truncation selection} 
 
-\frame[label=always]{\frametitle{Rapid cycle recurrent truncation beats traditional, at first}
+\frame{\frametitle{Rapid cycle recurrent truncation beats traditional, at first}
 \begin{columns}
 \begin{column}{0.02\linewidth}
 \end{column}
@@ -1762,7 +1762,7 @@ Use drone in place of a note taker or harvester?
 
 \subsection{Optimal contribution} 
 
-\frame[label=always]{\frametitle{Parent selection must balance mean and variance}
+\frame{\frametitle{Parent selection must balance mean and variance}
 \vspace{-1cm}
   \begin{columns}
     \begin{column}{0.5\linewidth}
@@ -1818,7 +1818,7 @@ Use drone in place of a note taker or harvester?
 
 % }
 
-\frame[label=always]{\frametitle{Optimal contributions of parents}
+\frame{\frametitle{Optimal contributions of parents}
 % From Akdemir et al. (2019):
 
 
@@ -1854,7 +1854,7 @@ Portfolio optimization problem
 
 % \subsection{Optimal contributions} 
 
-\frame[label=always]{\frametitle{Optimal contributions can maintain $V_g$ at the cost of short-term gains}
+\frame{\frametitle{Optimal contributions can maintain $V_g$ at the cost of short-term gains}
 \begin{columns}
 \begin{column}{0.05\linewidth}
 \end{column}
@@ -1878,7 +1878,7 @@ Portfolio optimization problem
 
 \subsection{Optimal contribution with branching} 
 
-\frame[label=always]{\frametitle{Can we have our cake and eat it too?}
+\frame{\frametitle{Can we have our cake and eat it too?}
 \begin{columns}
 \begin{column}{0.05\linewidth}
 \end{column}
@@ -1965,7 +1965,7 @@ Rethinking the selection pipeline
 
 \subsection{Selecting for value - building an selection index}
 
-\frame[label=always]{
+\frame{
   \frametitle{Selecting for varietal value}
 
   \begin{columns}
@@ -1995,7 +1995,7 @@ Could include other traits
 }
 
 
-\frame[label=always]{
+\frame{
   \frametitle{Double cropping system}
 \begin{columns}
 \begin{column}{0.7\linewidth}
@@ -2034,7 +2034,7 @@ Could include other traits
 
 }
 
-\frame[label=always]{
+\frame{
   \frametitle{G$\times$G is a special case of G$\times$E}
 
 \begin{columns}
@@ -2088,7 +2088,7 @@ Need an estimate of genetic correlation of environments
  \end{columns}
 }
 
-\frame[label=current]{
+\frame{
   \frametitle{Systems integration}
 
 \begin{columns}
@@ -2112,7 +2112,7 @@ Need an estimate of genetic correlation of environments
 }
 
 
-\frame[label=always]{
+\frame{
   \frametitle{Varietal release is complicated...}
 
   \begin{columns}
@@ -2148,7 +2148,7 @@ Need an estimate of genetic correlation of environments
 
 \section{Phased In Approach}
 \subsection{From the Foundation Up}
-\frame[label=always]{%\frametitle{Not without foundational capabilities!}
+\frame{%\frametitle{Not without foundational capabilities!}
 
 \begin{columns}
 \begin{column}{0.4\linewidth}
@@ -2210,7 +2210,7 @@ Need an estimate of genetic correlation of environments
 }
 
 
-\frame[label=always]{\frametitle{Resources: part of a breeding informatics ecosystem}
+\frame{\frametitle{Resources: part of a breeding informatics ecosystem}
 % \hspace{-1cm}
 \begin{tikzpicture}
 \small
@@ -2246,7 +2246,7 @@ Need an estimate of genetic correlation of environments
 \usebackgroundtemplate{%
 \tikz\node[opacity=0.3] {\includegraphics[height=\paperheight,width=\paperwidth]{"\string~/Dropbox/CUpres/truck"}};}
 
-\frame[label=always]{
+\frame{
   \begin{tikzpicture}
     \node (biorxiv) at (-6, -3) {\includegraphics[width = 0.6\linewidth]{"\string~/Dropbox/paperHeadshots/bioRxiv"}};
     \node at (0, -5.8) {G3: In Review};
@@ -2261,7 +2261,7 @@ Need an estimate of genetic correlation of environments
 \section{Teaching}
 
 
-\frame[label=always]{
+\frame{
   \frametitle{How can we prepare students for this change?}
 \begin{columns}
 \begin{column}{0.4\linewidth}
@@ -2302,7 +2302,7 @@ Learning through doing
 
 
 \subsection{Quantitative Genetics}
-\frame[label=always]{\frametitle{Introducing complex ideas through historical perspectives}
+\frame{\frametitle{Introducing complex ideas through historical perspectives}
 
 \begin{columns}
 
@@ -2357,7 +2357,7 @@ Karl Pearson
 
 
 \subsection{Genetic Variance}
-\frame[label=always]{\frametitle{Genetic Variance}
+\frame{\frametitle{Genetic Variance}
   \begin{tabular}{l}
   Let $n =$ number of individuals \\
   Let P = frequency of AA's \\
@@ -2397,7 +2397,7 @@ If $p$ independent factors: \\
 
 
 
-\frame[label=always]{\frametitle{Additive only}
+\frame{\frametitle{Additive only}
    \centering
    \begin{columns}
    \begin{column}{0.5\linewidth}
@@ -2424,7 +2424,7 @@ If $p$ independent factors: \\
 
 
 
-\frame[label=always]{\frametitle{Additive with Dominance}
+\frame{\frametitle{Additive with Dominance}
    \centering
    \begin{columns}
    \begin{column}{0.5\linewidth}
@@ -2452,7 +2452,7 @@ If $p$ independent factors: \\
 
 
 
-\frame[label=always]{\frametitle{Using simulation as a teaching tool}
+\frame{\frametitle{Using simulation as a teaching tool}
 
 Let's start with the single locus:
 \href{https://nsantantonio.shinyapps.io/singlelocus/}{nsantantonio.shinyapps.io/singlelocus/}
@@ -2467,7 +2467,7 @@ What about when there are many loci:
 
 
 \subsection{Genetic Variance}
-\frame[label=always]{\frametitle{Genetic Variance}
+\frame{\frametitle{Genetic Variance}
   Breeder's Equation:
   \[ \Delta_R = \frac{ir \sigma_a}{c}\]
   \pause
@@ -2478,7 +2478,7 @@ What about when there are many loci:
 }
 
 \subsection{Genomic Prediction}
-\frame[label=always]{\frametitle{Genomic Prediction of Grain Yield}
+\frame{\frametitle{Genomic Prediction of Grain Yield}
 \begin{columns}
 \begin{column}{0.6\linewidth}
 \centering
@@ -2506,7 +2506,7 @@ Lots of caveats...
 
 
 \section{Outreach}
-\frame[label=always]{
+\frame{
   \frametitle{Outreach}
 \begin{columns}
 
@@ -2551,7 +2551,7 @@ Involving young people
 
 }
 
-\frame[label=always]{
+\frame{
 \centering
   \begin{tikzpicture}
 
@@ -2565,7 +2565,7 @@ Involving young people
 \section{Recognition and Funding}
 % \subsection{Recognition and Funding}
 
-\frame[label=always]{\frametitle{Recognition}
+\frame{\frametitle{Recognition}
 \begin{columns}
 
 \begin{column}{0.2\linewidth}
